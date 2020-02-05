@@ -1,3 +1,10 @@
+<!--
+* User:
+* Date: 2/3/2018
+* Time: 12:06 PM
+* Bestand: template.php
+* Template voor alle opdrachten
+-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
