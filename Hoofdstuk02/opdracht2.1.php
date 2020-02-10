@@ -4,7 +4,7 @@
  * Date: 5/2/2020
  * Time: 14:58
  * Bestand: index.php
- */
+*/
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,7 +20,7 @@
     <h2>Uitwerkingen</h2>
     <p>
         <?php
-        
+            echo "Hello World!"
         ?>
     </p>
     <a href="../index.php">Terug</a>
