@@ -17,7 +17,7 @@
 <header><h1><?php echo "Uitwerking van PHP-opdrachten"; ?></h1></header>
 
 <main id="wrapper">
-    <h2>Uitwerkingen</h2>
+    <h2>Uitwerking Opdracht 2.1</h2>
     <p>
         <?php
             echo "Hello World!"

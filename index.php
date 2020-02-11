@@ -23,9 +23,6 @@
                 <li>
                     <a href="Hoofdstuk01/helloworld.php">Opdracht 1.1</a>
                 </li>
-                <li>
-                    <a href="Hoofdstuk01/helloworld.php">Opdracht 1.2</a>
-                </li>
             </ul>
         </li>
         <li>Hoofdstuk 2
@@ -34,7 +31,7 @@
                     <a href="Hoofdstuk02/opdracht2.1.php">Opdracht 2.1</a>
                 </li>
                 <li>
-                    <a href="Hoofdstuk01/helloworld.php">Opdracht 2.2</a>
+                    <a href="Hoofdstuk02/opdracht2.2.php">Opdracht 2.2</a>
                 </li>
             </ul>
         </li>

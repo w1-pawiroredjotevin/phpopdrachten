@@ -34,16 +34,16 @@ $text15 = "toch";
 <header><h1><?php echo "Uitwerking van PHP-opdrachten"; ?></h1></header>
 
 <main id="wrapper">
-    <h2>Uitwerkingen</h2>
+    <h2>Uitwerking Opdracht 2.2</h2>
     <?php
-    echo "<p>" . $text1 . $text10 . " " . $text4 . " " . $text5 . " " . $text3 . $text10 . $text12 .
-                $text7 . $text10 . " " . $text8 . " " . $text15 . $text9 . $text12 .
+        echo "<p>" . $text1 . $text10 . " " . $text4 . " " . $text5 . " " . $text3 . $text10 . $text12 .
+            $text7 . $text10 . " " . $text8 . " " . $text15 . $text9 . $text12 .
             $text6 . " " . $text5 . " " . $text3 . " " . $text13 . $text10 . "</p>";
     ?>
     <?php
-    echo "<p>" . $text1 . $text11 . $text12 .
-        $text8 . " " . $text15 . " " . "dat " . $text5 . " " . "zo'n makkelijke taal is" . $text10 . $text12 .
-        $text7 . $text10 . " " . $text14 . $text9 . "</p>";
+        echo "<p>" . $text1 . $text11 . $text12 .
+            $text8 . " " . $text15 . " " . "dat " . $text5 . " " . "zo'n makkelijke taal is" . $text10 . $text12 .
+            $text7 . $text10 . " " . $text14 . $text9 . "</p>";
     ?>
     <a href="../index.php">Terug</a>
 </main>
