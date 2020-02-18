@@ -14,3 +14,20 @@ header
 {
 
 }
+
+footer
+{
+    background-color: blue;
+    color: red;
+}
+
+/* Opdracht 3.2 */
+.go
+{
+    color: forestgreen;
+}
+
+.stop
+{
+    color: red;
+}

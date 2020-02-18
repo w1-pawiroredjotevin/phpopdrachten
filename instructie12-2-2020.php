@@ -9,7 +9,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link type="text/css" rel="stylesheet" href="../css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
     <meta charset="utf-8" />
     <title>PHP Opdrachten</title>
 </head>
@@ -23,7 +23,21 @@
     <h2>Uitwerkingen</h2>
     <p>
         <?php
-        
+            //String
+            $name = "Remco";
+
+            //Boolean
+            $teacher = true;
+
+            //Integer
+            $age = 32;
+
+            //Float (decimal always with dot .)
+            $length = 1.91;
+
+            //Toon tekst
+            echo "<p>" . $name . " is " . $age . " jaar oud.</p>";
+
         ?>
     </p>
     <a href="../index.php">Terug</a>

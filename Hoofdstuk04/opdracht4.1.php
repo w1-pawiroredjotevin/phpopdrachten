@@ -23,7 +23,7 @@
     <h2>Uitwerkingen</h2>
     <p>
         <?php
-        
+        include '../footer.php';
         ?>
     </p>
     <a href="../index.php">Terug</a>
