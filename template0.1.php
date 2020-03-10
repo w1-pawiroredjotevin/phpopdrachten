@@ -9,7 +9,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link type="text/css" rel="stylesheet" href="../../phpopdrachten/css/style.css">
+    <link type="text/css" rel="stylesheet" href="../css/style.css">
     <meta charset="utf-8" />
     <title>PHP Opdrachten</title>
 </head>
@@ -19,3 +19,14 @@
         <?php echo "Uitwerking van PHP-opdrachten"; ?>
     </h1>
 </header>
+<main id="wrapper">
+    <h2>Uitwerkingen</h2>
+    <p>
+        <?php
+
+        ?>
+    </p>
+    <a href="../index.php">Terug</a>
+</main>
+</body>
+</html>

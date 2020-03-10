@@ -27,6 +27,7 @@ $evenement is inmiddels $verreden maal verreden en werd voor het
 eerst in $jaar gereden en wordt maximaal $perJaar keer per winter
 gehouden.";
 
+//?
 $verhaal2 = "De Elfstedentocht (Fries: Alvestêdetocht) is een 200 kilometer
 lange schaatstocht over natuurijs die wordt georganiseerd door
 de Koninklijke Vereniging De Friesche Elf Steden. Leeuwarden,
@@ -63,5 +64,6 @@ gehouden. ";
     </p>
     <a href="../index.php">Terug</a>
 </main>
-</body>
-</html>
+<?php
+include "../includes/footer.php";
+?>

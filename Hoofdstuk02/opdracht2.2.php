@@ -47,5 +47,6 @@ $text15 = "toch";
     ?>
     <a href="../index.php">Terug</a>
 </main>
-</body>
-</html>
+<?php
+include "../includes/footer.php";
+?>

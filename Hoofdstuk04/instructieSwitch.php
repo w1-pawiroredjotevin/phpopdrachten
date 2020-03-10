@@ -23,7 +23,20 @@
     <h2>Uitwerkingen</h2>
     <p>
         <?php
-        include "../includes/footer.php";
+            echo $day = date("l");
+
+            switch($day)
+            {
+                case "Monday":
+                    echo "Het is vandaag Maandag";
+                    break;
+                case "Tuesday":
+                    echo "Vandaag is het Dinsdag";
+                    break;
+                default:
+                    echo "Het is vandaag geen dag";
+                    break;
+            }
         ?>
     </p>
     <a href="../index.php">Terug</a>

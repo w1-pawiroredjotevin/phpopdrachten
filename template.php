@@ -6,19 +6,9 @@
  * Bestand: index.php
  */
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link type="text/css" rel="stylesheet" href="../css/style.css">
-    <meta charset="utf-8" />
-    <title>PHP Opdrachten</title>
-</head>
-<body>
-<header>
-    <h1>
-        <?php echo "Uitwerking van PHP-opdrachten"; ?>
-    </h1>
-</header>
+<?php
+include "includes/header.php";
+?>
 <main id="wrapper">
     <h2>Uitwerkingen</h2>
     <p>
@@ -28,5 +18,6 @@
     </p>
     <a href="../index.php">Terug</a>
 </main>
-</body>
-</html>
+<?php
+include "../phpopdrachten/includes/footer.php";
+?>

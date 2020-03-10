@@ -1,5 +1,5 @@
 <?php
-    include "../includes/header.php";
+  include "../includes/header.php";
 ?>
 <main id="wrapper">
     <h2>Uitwerkingen</h2>
