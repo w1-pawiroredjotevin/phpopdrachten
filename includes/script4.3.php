@@ -40,8 +40,19 @@
     }
 
     //Taak 6
+    $task6 = "";
+    $year = 2020;
+    $age = 23;
+
+    while($year <= 2020 && $year > 1997)
+    {
+        $age = $age - 1;
+        $year = $year - 1;
+        echo $task6 = "<p>" . "In " . $year . " ben/word ik " . $age . " jaar oud" . "</p>";
+    }
 
     //Taak 7
+    
 
     //Taak 8
 ?>

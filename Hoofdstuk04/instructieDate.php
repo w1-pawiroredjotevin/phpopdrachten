@@ -41,7 +41,7 @@
             //Toevoeging: Les 10-3-2020
             //Datum omzetten naar timestamp
             //Aantal secondes vanaf Januari 1970 (32 bit waarde?)
-            //"now","tommorow", "+1 day", "+1 month", "10 september 2021" etc.
+            //"now","tomorrow", "+1 day", "+1 month", "10 september 2021" etc.
             $date = strtotime("now");
             echo date("d-m-Y", $date);
 
