@@ -9,7 +9,7 @@ include "lesopdracht_functions53.php";
         <td>
             <?php
                 //Toon hier de ingevulde naam
-                echo $_GET["firstname"];
+                echo $_POST["firstname"];
             ?>
         </td>
     </tr>
@@ -19,8 +19,8 @@ include "lesopdracht_functions53.php";
         <td>
             <?php
                 //Toon hier tussenvoegsel als deze bestaat
-                $tussenvoegsel = $_GET["tussenvoegsel"];
-                if(isset($GET["tussenvoegsel"]))
+                $tussenvoegsel = $_POST["tussenvoegsel"];
+                if(isset($POST["tussenvoegsel"]))
                 {
                     echo $tussenvoegsel;
                 }
@@ -33,7 +33,7 @@ include "lesopdracht_functions53.php";
         <td>
             <?php
                 //Toon hier de ingevulde achternaam
-                echo $_GET["lastname"];
+                echo $_POST["lastname"];
             ?>
         </td>
     </tr>

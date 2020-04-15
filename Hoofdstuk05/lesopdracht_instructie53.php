@@ -13,7 +13,7 @@
 
 
 ?>
-<form action="lesopdracht_form_data53.php" method="get">
+<form action="lesopdracht_form_data53.php" method="post">
     <label for="firstname">Voornaam</label>
     <input type="text" name="firstname" id="firstname">
 
