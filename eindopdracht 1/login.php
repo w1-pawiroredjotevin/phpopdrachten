@@ -21,6 +21,7 @@ include "../includes/header.php";
             ?>
         </p>
         <p>
+
         <form action="script.php" method="post">
         <table>
             <tr>
@@ -42,6 +43,7 @@ include "../includes/header.php";
         </table>
         <input type="submit" value="Login">
         </form>
+
         <br>
         <hr>
         </p>
