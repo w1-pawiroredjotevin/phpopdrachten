@@ -40,7 +40,7 @@ foreach($user as $name => $password) {
     }
     else
     {
-        $message = "Foutieve username en / of wachtwoord";
+        $message = "Foutieve username en / of wachtwoord ";
 
     }
 }

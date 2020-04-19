@@ -13,7 +13,7 @@ include "../includes/header.php";
         <h2>Uitwerkingen</h2>
         <hr>
         <h1>Bergheen</h1>
-        <p>Login om onze adresgegevens + openingstijden te zien</p>
+        <p>Login om onze adresgegevens + openingstijden te zien </p>
         <p>
             <?php
             //Melding $message
