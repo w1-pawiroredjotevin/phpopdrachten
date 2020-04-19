@@ -17,9 +17,11 @@ elseif($subject == "php")
     echo "Dit is uitleg over het vak PHP";
 }
 
+/*
 $firstname = $_POST["firstname"];
 if (!empty($_POST["firstname"])){
     echo "firstname: " . $firstname;
 }
+*/
 
 ?>
