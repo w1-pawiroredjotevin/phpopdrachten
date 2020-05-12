@@ -19,7 +19,7 @@ $y = $_POST["password"];
 
 //Check if correct
 foreach($user as $name => $password) {
-    if($name = $x && $password = $y)
+    if($name == $x && $password == $y)
     {
 
         // Deze gegevens dien je ten alle geheim te houden!
@@ -36,7 +36,7 @@ foreach($user as $name => $password) {
                         <label>10243 Berlin</label><br>
                         <label>Duitsland</label>
                     </fieldset>";
-
+                    break;
     }
     else
     {

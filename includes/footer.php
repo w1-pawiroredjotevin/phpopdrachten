@@ -28,6 +28,23 @@
 
     echo "bezoeker, &copy";
     echo $name . "&nbsp" . $year;
+
+
+    //Opdracht 6.1
+    session_start();
+    if (isset($_SESSION['username'])) {
+        $bezoeker = $_SESSION['username']. "&nbsp;<a
+    href='../Hoofdstuk06/loguit.php'>Loguit</a>";
+    }
+    else {
+        $bezoeker = "onbekende bezoeker". "&nbsp;<a
+    href='../Hoofdstuk06/opdracht61.php'>Login</a>";
+    }
+
+    // print vervolgens ook de $bezoeker zodat je de volgende visuele
+    // weergave in de pagina ziet
+
+
 ?>
 </body>
 </html>
