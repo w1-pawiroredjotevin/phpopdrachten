@@ -40,4 +40,10 @@ var_dump($aJokes);
 echo "</pre>";
 
 
+// Onder elkaar
+foreach($aJokes as $grap) {
+    echo "<br>".$grap['joketext'];
+}
+
+
 ?>
